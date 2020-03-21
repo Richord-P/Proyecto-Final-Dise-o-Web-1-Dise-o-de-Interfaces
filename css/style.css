@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/*Backgrounds*/
+.tittle-screen{
+	background-image:url("../img/tittle_screen.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hub1{
+	background-image: url("../img/hub_room_1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hub2{
+	background-image: url("../img/hub_room_2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.skills{
+	background-image: url( "../img/skills_chest.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about{
+	background-image: url( "../img/about_bookcases.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.animacion{
+	background-image: url( "../img/animation_slideshow.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.arte{
+	background-image: url( "../img/arte_galeria.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fin{
+	background-image: url( "../img/ending_avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#area1{
+	padding-top:100px;
+	
+}
+
+#area2 h3{
+	font-family: "Megaten 20XX";
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.controls{
+	padding: 590px 50px 0px 50px; 
+}
+.mapa h3{
+	padding-left: 180px;
+	color: #FFFFFF;
+}
+.botones h3{
+	text-align: center;
+	color: #FFFFFF;
+}
+.drop_d{
+	text-align: center;
+	color: #FFFFFF;
+}
+.direcciones img{
+	padding-top: 50px;
+	max-width: 90%
+}
