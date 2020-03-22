@@ -3,18 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">	
 	
 <title>Title Screen</title>
 </head>
-<link rel="stylesheet" href="css/style.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/bootstrap-custom.css" rel="stylesheet">
-<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+
 
 <body class="tittle-screen">
 
 <section id="area1">
-		<div class="container">
+		<div class="container buffer">
 			<div class="row">
 				<article class="col-md-4">
 					
@@ -35,19 +38,22 @@
 			<div class="row controls">
 				<article class="col-md-4 drop_d">
 					<h3>fast travel</h3>
-							<div class="dropdown show">
-							  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Travel to...
-							  </a>
+					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action">Viajar Hacia...</a>
 
-							  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-								<a class="dropdown-item" href="#">Arte</a>
-								<a class="dropdown-item" href="#">Habilidades</a>
-								<a class="dropdown-item" href="#">Acerca de Mi</a>
-								<a class="dropdown-item" href="#">Animacion</a>
-								<a class="dropdown-item" href="#">Final</a>
-							  </div>
-							</div>
+
+					  <a href="skills.html" class="list-group-item list-group-item-action ">Habilidades</a>
+					  <a href="arte.html" class="list-group-item list-group-item-action ">Arte</a>
+					  <a href="animacion.html" class="list-group-item list-group-item-action">Videos</a>
+					  <a href="about.html" class="list-group-item list-group-item-action ">About</a>
+					  <a href="fin.html" class="list-group-item list-group-item-action">Contactos</a>
+
+					</div>
+					
+					
+					
+					
+								
 				</article>
 				<article class="col-md-4 botones">
 					<h3>Movimiento</h3>
@@ -85,6 +91,8 @@
 		
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="css/jquery.fancybox.min.js"> </script>
 </body>
+	
 	
 </html>
